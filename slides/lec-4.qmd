@@ -360,9 +360,7 @@ How can we evaluate whether the model for predicting uninsurance rate from high 
 . . .
 
 ::: question
-What indicates a good model fit?
-Higher or lower $R^2$?
-Higher or lower RMSE?
+What indicates a good model fit? Higher or lower $R^2$? Higher or lower RMSE?
 :::
 
 ## R-squared {.smaller}
@@ -387,14 +385,13 @@ nc_fit_rsq <- round(glance(nc_fit)$r.squared * 100, 1)
 ::: poll
 🗳️ **Vote on Slack**
 
-The $R^2$ of the model for predicting uninsurance rate from high school graduation rate for NC counties is `r nc_fit_rsq`%.
-Which of the following is the correct interpretation of this value?
+The $R^2$ of the model for predicting uninsurance rate from high school graduation rate for NC counties is. Which of the following is the correct interpretation of this value?
 
 ::: nonincremental
--   High school graduation rates correctly predict `r nc_fit_rsq`% of uninsurance rates in NC counties.
--   `r nc_fit_rsq`% of the variability in uninsurance rates in NC counties can be explained by high school graduation rates.
--   `r nc_fit_rsq`% of the variability in high school graduation rates in NC counties can be explained by uninsurance rates.
--   `r nc_fit_rsq`% of the time uninsurance rates in NC counties can be predicted by high school graduation rates.
+-   High school graduation rates correctly predict of uninsurance rates in NC counties.
+-   variability in uninsurance rates in NC counties can be explained by high school graduation rates.
+-    the variability in high school graduation rates in NC counties can be explained by uninsurance rates.
+-    the time uninsurance rates in NC counties can be predicted by high school graduation rates.
 :::
 :::
 
