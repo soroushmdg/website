@@ -1,5 +1,5 @@
 ---
-title: "Syllabus2"
+title: "Syllabus3"
 ---
 
 [**Click here**](/documents/sta210-s22-syllabus.pdf "PDF of syllabus") **to download a PDF copy of the syllabus.**
